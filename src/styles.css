@@ -3,11 +3,26 @@
   --secondary-color: #ce9cfe;
 }
 
-.container {
+.body-content p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: black;
+  opacity: 0.7;
+}
+
+.featured {
+  font-size: 100px;
+}
+
+.hero-container {
   background-color: var(--primary-color);
   text-align: center;
   padding: 160px 20px;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
