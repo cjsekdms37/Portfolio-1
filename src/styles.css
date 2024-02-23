@@ -1,6 +1,8 @@
 :root {
   --primary-color: #e9e292;
   --secondary-color: #ce9cfe;
+  --tertiary-color: #ac91f0;
+  --quaternary-color: #e1d872;
 }
 
 .body-content p {
@@ -10,23 +12,67 @@
   opacity: 0.7;
 }
 
-.featured {
-  font-size: 100px;
+.col-6 {
+  margin: 0px auto 80px auto;
 }
 
+.col-6 h3 {
+  color: var(--tertiary-color);
+  font-size: 60px;
+}
+
+.col-6 p {
+  color: var(--secondary-color);
+  line-height: 2;
+}
+
+.container {
+  padding: 0;
+  margin: auto 70px;
+}
+
+.description {
+  padding: 60px 55px;
+}
+
+.featured {
+  color: var(--tertiary-color);
+  font-size: 17px;
+  opacity: 0.7;
+  padding-top: 40px;
+  margin: opx;
+}
 .hero-container {
   background-color: var(--primary-color);
   text-align: center;
   padding: 160px 20px;
-  margin: 0 auto;
+  margin: 0;
+}
+
+a:hover {
+  background-color: var(--quaternary-color);
+  color: white;
+  border: 1px solid var(--quaternary-color);
+  transition: ease-in 50ms;
+}
+
+img {
+  max-width: 100%;
 }
 
 a {
+  background-color: white;
+  border: 1px solid var(--tertiary-color);
+  border-radius: 4px;
+  color: var(--tertiary-color);
+  font-size: 18px;
+  padding: 15px 30px;
   text-decoration: none;
 }
 
 body {
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -64,4 +110,10 @@ button {
   border: 1px;
   border-radius: 4px;
   color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--secondary-color);
+  transition: ease-in linear 100ms;
 }
