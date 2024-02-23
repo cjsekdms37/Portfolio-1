@@ -10,18 +10,19 @@
   margin-top: 20px;
   color: black;
   opacity: 0.7;
+  width: 100%;
 }
 
-.col-6 {
+.col {
   margin: 0px auto 80px auto;
 }
 
-.col-6 h3 {
+.col h3 {
   color: var(--tertiary-color);
   font-size: 60px;
 }
 
-.col-6 p {
+.col p {
   color: var(--secondary-color);
   line-height: 2;
 }
@@ -40,13 +41,20 @@
   font-size: 17px;
   opacity: 0.7;
   padding-top: 40px;
-  margin: opx;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 .hero-container {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
   margin: 0;
+  padding: 160px 20px;
+  width: 100%;
+}
+
+.row {
+  margin: 0px;
+  padding: 0px;
 }
 
 a:hover {
@@ -116,4 +124,33 @@ button:hover {
   background-color: white;
   color: var(--secondary-color);
   transition: ease-in linear 100ms;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .container {
+    margin: auto 10px;
+  }
+
+  .description {
+    margin-bottom: 30px;
+    padding: 0px 30px 60px 30px;
+    text-align: center;
+  }
+
+  .description h3 {
+    font-size: 45px;
+  }
+
+  .row {
+    margin: 0px;
+    padding: 0px;
+  }
 }
