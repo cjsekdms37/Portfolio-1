@@ -94,7 +94,7 @@
   background-color: var(--primary-color);
   text-align: center;
   margin: 0;
-  padding: 160px 20px;
+  padding: 110px 20px;
   width: 100%;
 }
 
@@ -159,7 +159,7 @@ p {
   font-weight: 500;
   font-style: normal;
   margin-top: 10px;
-  margin-bottom: 48px;
+  margin-bottom: 70px;
 }
 
 button {
