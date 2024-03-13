@@ -103,11 +103,7 @@
   padding: 0px;
 }
 
-img {
-  max-width: 100%;
-}
-
-a {
+.learn-link {
   background-color: white;
   border: 1px solid var(--tertiary-color);
   border-radius: 4px;
@@ -117,12 +113,55 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.learn-link:hover {
   background-color: var(--quaternary-color);
   color: white;
   border: 1px solid var(--quaternary-color);
   transition: ease-in 50ms;
 }
+
+.about-brand {
+  margin-left: 30px;
+  color: #ad71e5;
+}
+
+.about-brand:hover {
+  color: #ad71e5;
+}
+
+.about-link {
+  color: #ad71e5;
+  opacity: 0.7;
+}
+
+.about-link:hover {
+  color: #ad71e5;
+  opacity: 0.9;
+}
+
+.index-brand {
+  margin-left: 30px;
+  color: white;
+}
+
+.index-brand:hover {
+  color: white;
+}
+
+.index-link {
+  color: white;
+  opacity: 0.7;
+}
+
+.index-link:hover {
+  color: white;
+  opacity: 0.9;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
   margin: 0 auto;
   margin-bottom: 30px;
