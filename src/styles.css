@@ -84,11 +84,11 @@
 
 .featured {
   color: var(--tertiary-color);
-  font-size: 17px;
+  font-size: 20px;
   opacity: 0.7;
-  padding-top: 50px;
+  padding-top: 55px;
   margin: 0;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 .hero-container {
   background-color: var(--primary-color);
