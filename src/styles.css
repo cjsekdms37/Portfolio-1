@@ -148,12 +148,12 @@
   color: white;
 }
 
-.index-link {
+.primary-link {
   color: white;
   opacity: 0.7;
 }
 
-.index-link:hover {
+.primary-link:hover {
   color: white;
   opacity: 0.9;
 }
