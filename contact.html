@@ -44,79 +44,79 @@
             <a class="nav-link about-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link about-link active" href="about.html">About</a>
+            <a class="nav-link about-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link about-link" href="work.html">Project</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link about-link" href="contact.html">Contact</a>
+            <a class="nav-link about-link active" href="contact.html"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
     </nav>
-    <header class="about-container">
-      <div class="row d-flex">
-        <div class="col coder-info">
-          <h1>Hi, I am DaEun Michaels</h1>
-          <h2>Front-end Developer, based in the United States</h2>
-          <p>
-            The light blinded him. It was dark and he thought he was the only
-            one in the area, but the light shining in his eyes proved him wrong.
-            It came from about 100 feet away and was shining so directly into
-            his eyes he couldn't make out anything about the person holding the
-            light.
-          </p>
-          <button id="about-button">See my projects</button>
-        </div>
-        <div class="col img-box">
-          <img
-            src="/src/images/Jenny.jpg"
-            alt="picture of coder"
-            class="coder-pic"
-          />
-        </div>
-      </div>
-    </header>
+    <div class="contact-box">
+      <h1>Let's get in touch!</h1>
+      <h3>Email</h3>
+      <p><a href="mailto:djchun37@gmail.com">djchun37@gmail.com</a></p>
+      <h3>LinkedIn</h3>
+      <p>
+        <a href="https://www.linkedin.com/in/djcmichaels/" target="_blank"
+          >@djcmichaels</a
+        >
+      </p>
+    </div>
     <style>
-      :root {
-        --primary-color: #e9e292;
-        --secondary-color: #ce9cfe;
-        --tertiary-color: #ac91f0;
-        --quaternary-color: #e1d872;
+      div.contact-box {
+        display: block;
+        margin: 260px auto;
+        max-width: fit-content;
+      }
+      body {
+        background: #ce9cfe;
+      }
+      h1 {
+        background: #ce9cfe;
+        color: #e9e292;
+        font-size: 60px;
+        margin-bottom: 50px;
+        text-align: center;
       }
 
-      #about-button:hover {
-        background-color: white;
-      }
-
-      #about-button {
-        background-color: var(--primary-color);
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      }
-
-      .about-container {
-        background-color: var(--secondary-color);
-        margin: 0;
-        padding: 160px 65px;
-        width: 100%;
-      }
-
-      .about-container h1 {
-        font-size: 75px;
-        color: var(--primary-color);
-      }
-
-      .about-container h2 {
-        font-size: 28px;
-        line-height: 2;
-        color: var(--quaternary-color);
-      }
-
-      .about-container .row .col p {
+      h3 {
         color: white;
+        margin-bottom: 3px;
+      }
+
+      a {
         font-size: 18px;
-        opacity: 0.8;
+      }
+
+      p {
+        margin-bottom: 35px;
+        line-height: 1;
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 45px;
+        }
+
+        div.contact-box {
+          display: block;
+          margin: 260px auto;
+          max-width: fit-content;
+        }
+
+        h3 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 3px;
+        }
       }
     </style>
   </body>
