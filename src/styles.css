@@ -88,7 +88,7 @@
 }
 
 .about-brand {
-  margin-left: 30px;
+  margin-left: 25px;
   color: #ad71e5;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .index-brand {
-  margin-left: 30px;
+  margin-left: 15px;
   color: white;
 }
 
@@ -209,6 +209,10 @@ p {
 
   h2 {
     font-size: 28px;
+  }
+
+  ul {
+    margin-left: 21px;
   }
 
   .about-container h2 {

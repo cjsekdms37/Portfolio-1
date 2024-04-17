@@ -19,42 +19,46 @@
     <title>About Me</title>
   </head>
   <body>
-    <nav
-      class="navbar fixed-top navbar-expand-lg navbar-light"
-      style="background-color: #e9e292"
-    >
-      <a class="navbar-brand about-brand mb-0 h1" href="index.html"
-        >Jenny DaEun Michaels</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link about-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link about-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link about-link" href="work.html">Project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link about-link active" href="contact.html"
-              >Contact</a
-            >
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-md" style="background-color: #e9e292">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand index-brand"
+          href="index.html"
+          style="background: #e9e292; color: #ad71e5"
+          >Jenny DaEun Michaels</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link about-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link about-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link about-link" href="/work.html">Project</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active disabled"
+                aria-current="page"
+                href="/contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <div class="contact-box">
@@ -119,5 +123,10 @@
         }
       }
     </style>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
