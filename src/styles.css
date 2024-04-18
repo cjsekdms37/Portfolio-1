@@ -241,7 +241,7 @@ div.d-flex.inquiry-box.justify-content-between {
   }
 
   h1 {
-    font-size: 80px;
+    font-size: 64px;
   }
 
   .about-container {
@@ -278,6 +278,24 @@ div.d-flex.inquiry-box.justify-content-between {
     margin-bottom: 60px;
   }
 
+  .contact-button {
+    font-size: 17px;
+    padding: 11px 21px;
+    background: var(--secondary-color);
+    border: 1px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .contact-button:hover {
+    background-color: white;
+    color: var(--secondary-color);
+    transition: ease-in linear 100ms;
+  }
+
   .container {
     padding: 0;
     margin: auto 40px;
@@ -285,7 +303,7 @@ div.d-flex.inquiry-box.justify-content-between {
 
   .description {
     margin-bottom: 30px;
-    padding: 0px 30px 60px 30px;
+    padding: 0px 10px 60px 10px;
     text-align: center;
   }
 
@@ -295,6 +313,10 @@ div.d-flex.inquiry-box.justify-content-between {
 
   .d-flex {
     gap: 0;
+  }
+
+  .email-contact {
+    font-size: 22px;
   }
 
   .img-box {
@@ -324,5 +346,9 @@ div.d-flex.inquiry-box.justify-content-between {
 
   div.col.coder-info h2 {
     line-height: 1.5;
+  }
+
+  div.col.coder-info h1 {
+    font-size: 60px;
   }
 }
