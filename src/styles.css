@@ -263,7 +263,7 @@ div.d-flex.inquiry-box.justify-content-between {
   }
 
   .about-container h2 {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 1;
   }
 
@@ -320,5 +320,9 @@ div.d-flex.inquiry-box.justify-content-between {
   div.d-flex.justify-content-center .fa-brands.fa-instagram {
     margin-right: 25px;
     margin-left: 25px;
+  }
+
+  div.col.coder-info h2 {
+    line-height: 1.5;
   }
 }
