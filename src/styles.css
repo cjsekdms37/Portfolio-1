@@ -246,7 +246,7 @@ div.d-flex.inquiry-box.justify-content-between {
 
   .about-container {
     text-align: center;
-    padding: 110px 50px 100px 50px;
+    padding: 75px 50px 100px 50px;
   }
 
   .about-container h1 {
@@ -313,6 +313,11 @@ div.d-flex.inquiry-box.justify-content-between {
 
   .d-flex {
     gap: 0;
+  }
+
+  div.row.text-center h1 {
+    margin-top: 75px;
+    margin-bottom: 70;
   }
 
   .email-contact {
