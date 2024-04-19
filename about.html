@@ -9,6 +9,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+      <script src="https://kit.fontawesome.com/ead9e7eddd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -61,19 +62,21 @@
         </div>
       </div>
     </nav>
-    <header class="about-container">
+
+    <div class="about-container">
+    <header class="header-container">
       <div class="row d-flex">
         <div class="col coder-info">
           <h1>Hi, I am DaEun Michaels</h1>
           <h2>Front-end Developer, based in the United States</h2>
-          <p>
+          <p class="personal-desc">
             The light blinded him. It was dark and he thought he was the only
             one in the area, but the light shining in his eyes proved him wrong.
             It came from about 100 feet away and was shining so directly into
             his eyes he couldn't make out anything about the person holding the
             light.
           </p>
-          <a id="about-button">See my projects</a>
+          <a href="/work.html" id="about-button">See my projects</a>
         </div>
         <div class="col img-box">
           <img
@@ -82,56 +85,86 @@
             class="coder-pic"
           />
         </div>
+      </header>
+        <div class="contacting-info">
+          <footer class="footer-container">
+          <div class="d-flex inquiry-box justify-content-between body-content">
+            <div>
+            <h3 class="inquiry-heading">Work Inquiry</h3>
+            <p class="inquiry-paragraph" >Let's work together!</p>
+            </div>
+            <div>
+            <a class="contact-button d-flex align-items-center" title="Contact Jenny" href="/contact.html">Contact Me</a>
+            </div>
+          </div>
+          <div class="inquiry-info body-content">
+            <a class="email-contact style-two" href="mailto:djchun37@gmail.com">djchun37@gmail.com</a>
+          <div class="d-flex justify-content-center ">
+            <a href="https://www.linkedin.com/in/djcmichaels/" target="_blank" title="Linkedin Profile"><i class="fa-brands fa-linkedin logo-two"></i></a>
+            <a href="https://www.instagram.com/jennydchun/"target="_blank" title="Instagram Profile" ><i class="fa-brands fa-instagram logo-two"></i></a>
+            <a href="https://github.com/cjsekdms37"target="_blank" title="Github Profile" ><i class="fa-brands fa-github logo-two"></i></a>
+          </div>
+          <p class="text-muted" style="margin-top:  0px;"> This project was coded by Jenny D. Michaels, and it is <a class="source-link" href="https://github.com/cjsekdms37/Portfolio-1">open-sourced</a></p>
+          </div>
+        </div>
+        </footer>
+        </div>
       </div>
-    </header>
+    </div>
     <style>
-      :root {
-        --primary-color: #e9e292;
-        --secondary-color: #ce9cfe;
-        --tertiary-color: #ac91f0;
-        --quaternary-color: #e1d872;
-      }
+  :root {
+    --primary-color: #e9e292;
+    --secondary-color: #ce9cfe;
+    --tertiary-color: #ac91f0;
+    --quaternary-color: #e1d872;
+  }
 
-      #about-button:hover {
-        background-color: white;
-        color: #ad71e5;
-      }
+  #about-button:hover {
+    background-color: white;
+    color: #ad71e5;
+  }
 
-      #about-button {
-        background-color: var(--primary-color);
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        font-size: 18px;
-        padding: 18px 30px;
-        color: white;
-        border: 1px;
-        border-radius: 4px;
-        text-decoration: none;
-      }
+  #about-button {
+    background-color: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 18px;
+    padding: 18px 30px;
+    color: var(--tertiary-color);
+    border: 1px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
 
-      .about-container {
-        background-color: var(--secondary-color);
-        margin: 0;
-        padding: 120px 65px;
-        width: 100%;
-      }
+  .header-container {
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 120px 65px 0px 65px;
+    width: 100%;
+  } 
 
-      .about-container h1 {
-        font-size: 75px;
-        color: var(--primary-color);
-      }
+  .footer-container {
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 50px 65px 0px 65px;
+  }
 
-      .about-container h2 {
-        font-size: 28px;
-        line-height: 2;
-        color: var(--quaternary-color);
-      }
+  .header-container h1 {
+    font-size: 75px;
+    color: var(--primary-color);
+  }
 
-      .about-container .row .col p {
-        color: white;
-        font-size: 18px;
-        opacity: 0.8;
-      }
-    </style>
+  .header-container h2 {
+    font-size: 28px;
+    line-height: 2;
+    color: var(--quaternary-color);
+  }
+
+  p.personal-desc {
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;
+  }
+  </style>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

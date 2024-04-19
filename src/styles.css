@@ -200,14 +200,31 @@ div.inquiry-info {
   text-decoration: none;
 }
 
+.email-contact:hover {
+  color: hotpink;
+}
+
 .fa-brands {
   background-color: rgba(206, 156, 254, 0.8);
   border-radius: 50%;
   color: white;
   font-size: 22px;
-  margin-bottom: 100px;
+  margin-bottom: 44px;
   margin-top: 40px;
   padding: 10px 11px;
+}
+
+.fa-brands:hover {
+  background-color: hotpink;
+}
+
+.fa-brands.logo-two {
+  background-color: rgba(239, 234, 181, 0.8);
+  color: white;
+}
+
+.fa-brands.logo-two:hover {
+  background-color: hotpink;
 }
 
 div.inquiry-box {
@@ -220,6 +237,10 @@ p.inquiry-paragraph {
   color: var(--tertiary-color);
   margin-bottom: 0px;
   margin-top: 7px;
+}
+
+p.text-muted {
+  margin-bottom: 70px;
 }
 
 div.d-flex.inquiry-box.justify-content-between {
@@ -235,6 +256,30 @@ div.d-flex.inquiry-box.justify-content-between {
   margin: 0;
 }
 
+.email-contact.style-two {
+  color: white;
+}
+
+.email-contact.style-two:hover {
+  color: hotpink;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.text-muted a {
+  text-decoration: none;
+}
+
+a.source-link {
+  color: #5f8fdb;
+}
+
+a.source-link:hover {
+  color: hotpink;
+}
+
 @media (max-width: 991px) {
   body {
     margin: 0;
@@ -244,9 +289,56 @@ div.d-flex.inquiry-box.justify-content-between {
     font-size: 64px;
   }
 
+  :root {
+    --primary-color: #e9e292;
+    --secondary-color: #ce9cfe;
+    --tertiary-color: #ac91f0;
+    --quaternary-color: #e1d872;
+  }
+
+  #about-button:hover {
+    background-color: white;
+    color: #ad71e5;
+  }
+
+  #about-button {
+    background-color: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 18px;
+    padding: 18px 30px;
+    color: white;
+    border: 1px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+  .about-container {
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 120px 65px 0px 60px;
+    width: 100%;
+  }
+
+  .about-container h1 {
+    font-size: 75px;
+    color: var(--primary-color);
+  }
+
+  .about-container h2 {
+    font-size: 28px;
+    line-height: 2;
+    color: var(--quaternary-color);
+  }
+
+  p.personal-desc {
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;
+  }
+
   .about-container {
     text-align: center;
-    padding: 75px 50px 100px 50px;
+    padding: 75px 40px 100px 40px;
   }
 
   .about-container h1 {
@@ -260,6 +352,10 @@ div.d-flex.inquiry-box.justify-content-between {
 
   ul {
     margin-left: 16px;
+  }
+
+  p.text-muted {
+    font-size: 13px;
   }
 
   .about-container h2 {
