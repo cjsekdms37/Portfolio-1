@@ -338,7 +338,7 @@ a.source-link:hover {
 
   .about-container {
     text-align: center;
-    padding: 75px 40px 100px 40px;
+    padding: 75px 40px 0px 40px;
   }
 
   .about-container h1 {
