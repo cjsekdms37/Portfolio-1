@@ -394,6 +394,11 @@ a.source-link:hover {
     padding: 18px 30px;
   }
 
+  .contact-button.top-contact-button {
+    font-size: 18px;
+    padding: 18px 30px;
+  }
+
   .contact-button:hover {
     background-color: white;
     color: var(--secondary-color);
